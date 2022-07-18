@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        /* @group Blink */
+        .blink {
+         -webkit-animation: blink .75s linear infinite;
+         -moz-animation: blink .75s linear infinite;
+         -ms-animation: blink .75s linear infinite;
+         -o-animation: blink .75s linear infinite;
+         animation: blink .75s linear infinite;
+        }
+        @-webkit-keyframes blink {
+         0% { opacity: 1; }
+         50% { opacity: 1; }
+         50.01% { opacity: 0; }
+         100% { opacity: 0; }
+        }
+        @-moz-keyframes blink {
+         0% { opacity: 1; }
+         50% { opacity: 1; }
+         50.01% { opacity: 0; }
+         100% { opacity: 0; }
+        }
+        @-ms-keyframes blink {
+         0% { opacity: 1; }
+         50% { opacity: 1; }
+         50.01% { opacity: 0; }
+         100% { opacity: 0; }
+        }
+        @-o-keyframes blink {
+         0% { opacity: 1; }
+         50% { opacity: 1; }
+         50.01% { opacity: 0; }
+         100% { opacity: 0; }
+        }
+
+        @-webkit-keyframes my {
+            0% { background-color: #F8CD0A; } 
+            50% { background-color: #fff;  } 
+            100% { background-color: #F8CD0A;  } 
+        }
+        @-moz-keyframes my { 
+            0% { background-color: #F8CD0A;  } 
+            50% { background-color: #fff;  }
+            100% { background-color: #F8CD0A;  } 
+        }
+        @-o-keyframes my { 
+            0% { background-color: #F8CD0A; } 
+            50% { background-color: #fff; } 
+            100% { background-color: #F8CD0A;  } 
+        }
+        @keyframes my { 
+            0% { background-color: #F8CD0A;  } 
+            50% { background-color: #fff;  }
+            100% { background-color: #F8CD0A;  } 
+        } 
+        .test {
+            height:40px;
+            text-align: center;
+                background:#3d3d3d;
+                font-size:24px;
+                font-weight:bold;
+            -webkit-animation: my 700ms infinite;
+            -moz-animation: my 700ms infinite; 
+            -o-animation: my 700ms infinite; 
+            animation: my 700ms infinite;
+        }
+        </style>
+</head>
+<body>
+    <div class="test">
+        <p class="tab blink ">Techmaster học là có việc</p>
+    </div>
+    
+</body>
+</html>

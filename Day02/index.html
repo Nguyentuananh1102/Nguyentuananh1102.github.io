@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- internal css -->
+    <style>
+      /* để xác đinnhj vị trí*/
+
+      #rect1 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(24, 41, 135);
+      }
+      #rect2 {
+        width: 2000px;
+        background-color: aqua;
+      }
+      #hi {
+        width: 5000px;
+        background-color: blue;
+      }
+      .textColor {
+        color: brown;
+      }
+      .textFont {
+        font-size: 50px;
+      }
+    </style>
+
+    
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- inline ass -->
+    <p
+      style="
+        color: red;
+        font-size: 30px;
+        font-weight: 300;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: aquamarine;
+        text-decoration: underline;
+        text-transform: capitalize;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin-top: 20px;
+      "
+    >
+      học css CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ
+      được sử dụng để tìm và định dạng lại các phần tử được tạo ra bởi các ngôn
+      ngữ đánh dấu (HTML). Nói ngắn gọn hơn là ngôn ngữ tạo phong cách cho trang
+      web. Bạn có thể hiểu đơn giản rằng, nếu HTML đóng vai trò định dạng các
+      phần tử trên website như việc tạo ra các đoạn văn bản, các tiêu đề,
+      bảng,…thì CSS sẽ giúp chúng ta có thể thêm style vào các phần tử HTML đó
+      như đổi bố cục, màu sắc trang, đổi màu chữ, font chữ, thay đổi cấu trúc…
+    </p>
+
+    <div id="rect1"></div>
+    <div id="rect2">
+      <a href="a">Google</a>
+      <p id="hi">Hilll</p>
+    </div>
+
+    <!-- hàm class là gọi bằng dấu .
+     hàm id gọi là dấu # -->
+
+    <h2 class="textColor textFont">Tiêu đề 1</h2>
+
+    <h2 class="textColor">Tiêu đề 2</h2>
+
+    <!-- phần tử được css trong file style.css -->
+    <h1 id="topic">môn css</h1>
+    <h1 class="text">css là gì</h1>
+    <a class="link" href="https://topdev.vn/blog/css-la-gi/" target="_blank">css tutorial</a>
+    <br/>
+    <img
+      class="photo"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn9xHy2k_d_I9QyN7BZnGf6nkG-9Cm9u2-ng&usqp=CAU"
+      alt="hinh anh"
+      
+    />
+  </body>
+</html>

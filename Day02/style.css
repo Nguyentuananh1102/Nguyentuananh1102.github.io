@@ -1,0 +1,30 @@
+/*Extenal CSS*/
+ *{
+    box-sizing:border-box ;
+    margin : 0px;
+    padding : 0px;
+
+    
+ }
+
+ .header{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+ }
+ .header2{
+    text-align: center;
+    padding-top:50px;
+    text-transform: uppercase;
+ }
+ .container{
+    margin: 50px 300px 20px 300px;
+    text-align:left;
+    font-size: 16px;
+ }
+
+
+ .container2{
+    margin :30px 300px 0px  800px;
+    text-align: center;
+ }
